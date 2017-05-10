@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:text="Loading..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        />
+
+
+
+    <Spinner
+        android:id="@+id/SpinnerLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/currency"
+        android:layout_marginTop="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/SpinnerRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/currency"
+        android:layout_marginLeft="156dp"
+        android:layout_marginStart="156dp"
+        android:layout_alignTop="@+id/SpinnerLeft"
+        android:layout_alignLeft="@+id/SpinnerLeft"
+        android:layout_alignStart="@+id/SpinnerLeft">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/EditTextL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@+id/SpinnerLeft"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:maxLength="10"
+        />
+    <TextView
+        android:id="@+id/textViewR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@+id/SpinnerRight"
+        android:layout_marginLeft="210dp"
+        android:layout_marginStart="210dp"
+        android:maxLength="10"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
