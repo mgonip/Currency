@@ -10,8 +10,8 @@
 kalkulator walut pobierający aktualne kursy z http://api.fixer.io/latest co 12 godzin zaczynajac od 8:00
 
 ### Linki:
-* [User Guide](https://bitbucket.org/mgoniprowski/currency/src/293e59508c79bc2e88ffdf32b9d306b30a1c4162/docs/?at=master)
-* [Aplikacja](https://bitbucket.org/mgoniprowski/currency/src/293e59508c79bc2e88ffdf32b9d306b30a1c4162/docs/?at=master)
+* [User Guide](https://github.com/mgonip/Currency/tree/master/docs)
+* [Aplikacja](https://github.com/mgonip/Currency/tree/master/docs)
 
 ## Wymagane oprogramowanie:
 * Dowolne urządzenie z systemem Android minimum 4.0.3 
